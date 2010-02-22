@@ -7,7 +7,7 @@ use File::Fetch;
 use Scalar::Util qw(blessed);
 use File::Temp qw/tempdir/;
 
-use Class::C3;
+use MRO::Compat;
 
 use base qw/Catalyst::Plugin::ConfigLoader/;
 
